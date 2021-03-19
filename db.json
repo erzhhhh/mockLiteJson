@@ -1,0 +1,956 @@
+{
+  "version": 1,
+  "locations": [
+    {
+      "locationName": "mainLite",
+      "positions": [
+        {
+          "positionName": "header",
+          "contents": [
+            {
+              "formatName": "card",
+              "contentPages": [
+                {
+                  "pageNumber": 1,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Дебетовая карта ВТБ",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "detailText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "С бесплатным обслуживанием",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "sumType",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Кэшбэк",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "sumText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "до 1,5%",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "background",
+                      "elementType": "IMAGE",
+                      "image": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/Cards/debitCard_x.png",
+                        "color": "#546173"
+                      }
+                    },
+                    {
+                      "elementId": "button",
+                      "elementType": "BUTTON",
+                      "image": {
+                        "color": "#708087"
+                      },
+                      "button": {
+                        "elementTitle": "Заказать",
+                        "fontColor": "#FFFFFF",
+                        "elementLink": {
+                          "linkURL": "https://vtb.ru/lp/debit-cards/",
+                          "linkType": "EXTERNAL"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "positionName": "recommendations",
+          "contents": [
+            {
+              "formatName": "recom",
+              "contentPages": [
+                {
+                  "pageNumber": 1,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Вход для клиентов ВТБ",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "background",
+                      "elementType": "IMAGE",
+                      "image": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/RecommendationIcons/clientLoginCard.png",
+                        "color": "#3A83F1",
+                        "elementLink": {
+                          "linkURL": "OpenCustomerLogin",
+                          "linkType": "INTERNAL"
+                        }
+                      }
+                    },
+                    {
+                      "elementId": "recomIcon",
+                      "elementType": "ICON",
+                      "icon": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/RecommendationIcons/ic40_client.png"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "formatName": "recom",
+              "contentPages": [
+                {
+                  "pageNumber": 1,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Возможности ВТБ Онлайн",
+                        "fontColor": "#222222"
+                      }
+                    },
+                    {
+                      "elementId": "background",
+                      "elementType": "IMAGE",
+                      "image": {
+                        "color": "#F0F2F5",
+                        "elementLink": {
+                          "linkURL": "LITE_FEATURE_MODULE:OPEN_GUIDE",
+                          "linkType": "INTERNAL"
+                        }
+                      }
+                    },
+                    {
+                      "elementId": "recomIcon",
+                      "elementType": "ICON",
+                      "icon": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/RecommendationIcons/ic40_new.png"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },{
+              "formatName": "recom",
+              "contentPages": [
+                {
+                  "pageNumber": 1,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Стать клиентом через ГосУслуги или биометрию (ЕБС)",
+                        "fontColor": "#222222"
+                      }
+                    },
+                    {
+                      "elementId": "background",
+                      "elementType": "IMAGE",
+                      "image": {
+                        "color": "#F0F2F5",
+                        "elementLink": {
+                          "linkURL": "ACCOUNT_NON_CLIENT_FEATURE_MODULE:ACCOUNT_NON_CLIENT_START",
+                          "linkType": "INTERNAL"
+                        }
+                      }
+                    },
+                    {
+                      "elementId": "recomIcon",
+                      "elementType": "ICON",
+                      "icon": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/RecommendationIcons/ic40_bio.png"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "formatName": "recom",
+              "contentPages": [
+                {
+                  "pageNumber": 1,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Оплатить сотовую связь",
+                        "fontColor": "#222222"
+                      }
+                    },
+                    {
+                      "elementId": "background",
+                      "elementType": "IMAGE",
+                      "image": {
+                        "color": "#F0F2F5",
+                        "elementLink": {
+                          "linkURL": "checkout.paymo.ru/vtb/oplata-mobile",
+                          "linkType": "EXTERNAL"
+                        }
+                      }
+                    },
+                    {
+                      "elementId": "recomIcon",
+                      "elementType": "ICON",
+                      "icon": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/RecommendationIcons/ic40_mobile.png"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "formatName": "recom",
+              "contentPages": [
+                {
+                  "pageNumber": 1,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Перевести деньги",
+                        "fontColor": "#222222"
+                      }
+                    },
+                    {
+                      "elementId": "background",
+                      "elementType": "IMAGE",
+                      "image": {
+                        "color": "#F0F2F5",
+                        "elementLink": {
+                          "linkURL": "checkout.paymo.ru/vtb-perevod-link",
+                          "linkType": "EXTERNAL"
+                        }
+                      }
+                    },
+                    {
+                      "elementId": "recomIcon",
+                      "elementType": "ICON",
+                      "icon": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/RecommendationIcons/ic40_transfer.png"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "formatName": "recom",
+              "contentPages": [
+                {
+                  "pageNumber": 1,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Оплатить услуги ЖКХ",
+                        "fontColor": "#222222"
+                      }
+                    },
+                    {
+                      "elementId": "background",
+                      "elementType": "IMAGE",
+                      "image": {
+                        "color": "#F0F2F5",
+                        "elementLink": {
+                          "linkURL": "checkout.paymo.ru/vtb/oplata-utilites",
+                          "linkType": "EXTERNAL"
+                        }
+                      }
+                    },
+                    {
+                      "elementId": "recomIcon",
+                      "elementType": "ICON",
+                      "icon": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/RecommendationIcons/ic40_home.png"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "formatName": "recom",
+              "contentPages": [
+                {
+                  "pageNumber": 1,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Штрафы ГИБДД",
+                        "fontColor": "#222222"
+                      }
+                    },
+                    {
+                      "elementId": "background",
+                      "elementType": "IMAGE",
+                      "image": {
+                        "color": "#F0F2F5",
+                        "elementLink": {
+                          "linkURL": "checkout.paymo.ru/vtb/oplata-gibdd",
+                          "linkType": "EXTERNAL"
+                        }
+                      }
+                    },
+                    {
+                      "elementId": "recomIcon",
+                      "elementType": "ICON",
+                      "icon": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/RecommendationIcons/ic40_gibdd.png"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "locationName": "showcaseLite",
+      "positions": [
+        {
+          "positionName": "header",
+          "contents": [
+            {
+              "formatName": "adShowcase",
+              "contentPages": [
+                {
+                  "pageNumber": 1,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Кредитная карта ВТБ",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "detailText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Льготный период 110 дней, оформление без справок, снятие наличных без комиссии до 50 000 Р",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "background",
+                      "elementType": "IMAGE",
+                      "image": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/Promo/promo_card.png",
+                        "color": "#3A83F1"
+                      }
+                    },
+                    {
+                      "elementId": "button",
+                      "elementType": "BUTTON",
+                      "image": {
+                        "color": "#3A83F1"
+                      },
+                      "button": {
+                        "elementTitle": "Оформить",
+                        "fontColor": "#FFFFFF",
+                        "elementLink": {
+                          "linkURL": "https://anketa.vtb.ru/kreditnaya-karta/?utm_source=mobapplite&utm_medium=vtb&utm_campaign=vtb_mobapplite_credcards_banner&utm_source=android",
+                          "linkType": "EXTERNAL"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "positionName": "bankFavors",
+          "contents": [
+            {
+              "formatName": "favor",
+              "contentPages": [
+                {
+                  "pageNumber": 1,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Кредит наличными",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "detailText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "На ремонт, подарки и другие цели",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "background",
+                      "elementType": "IMAGE",
+                      "image": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/BankingService/bankServCard_cashLoan.png",
+                        "color": "#FFEBF8",
+                        "elementLink": {
+                          "linkURL": "https://anketa.vtb.ru/kredit-nalichnymi/?utm_source=mobapplite&utm_medium=vtb&utm_campaign=vtb_mobapplite_kn&utm_source=android",
+                          "linkType": "EXTERNAL"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "formatName": "favor",
+              "contentPages": [
+                {
+                  "pageNumber": 1,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Ипотека",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "detailText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "На квартиру, дом или участок",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "background",
+                      "elementType": "IMAGE",
+                      "image": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/BankingService/bankServCard_mortgage.png",
+                        "color": "#D8F5E8",
+                        "elementLink": {
+                          "linkURL": "https://anketa.vtb.ru/ipoteka/?utm_source=mobapplite&utm_medium=vtb&utm_campaign=vtb_mobapplite_mortgage&utm_source=android",
+                          "linkType": "EXTERNAL"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "formatName": "favor",
+              "contentPages": [
+                {
+                  "pageNumber": 1,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Автокредит",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "detailText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "На новую машину или с пробегом",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "background",
+                      "elementType": "IMAGE",
+                      "image": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/BankingService/bankServCard_auto.png",
+                        "color": "#E2F2FE",
+                        "elementLink": {
+                          "linkURL": "https://anketa.vtb.ru/avtokredit/?utm_source=mobapplite&utm_medium=vtb&utm_campaign=vtb_mobapplite_autocredit&utm_source=android",
+                          "linkType": "EXTERNAL"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "formatName": "favor",
+              "contentPages": [
+                {
+                  "pageNumber": 1,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Кредитная карта",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "detailText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Льготный период до 110 дней",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "background",
+                      "elementType": "IMAGE",
+                      "image": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/BankingService/bankServCard_creditCard.png",
+                        "color": "#E7E7FF",
+                        "elementLink": {
+                          "linkURL": "https://anketa.vtb.ru/kreditnaya-karta/?utm_source=mobapplite&utm_medium=vtb&utm_campaign=vtb_mobapplite_credcards&utm_source=android",
+                          "linkType": "EXTERNAL"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "formatName": "favor",
+              "contentPages": [
+                {
+                  "pageNumber": 1,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Дебетовая карта",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "detailText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Кэшбэк до 1,5%",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "background",
+                      "elementType": "IMAGE",
+                      "image": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/BankingService/bankServCard_debitCard.png",
+                        "color": "#DBF8FF",
+                        "elementLink": {
+                          "linkURL": "https://anketa.vtb.ru/debit-card/?utm_source=mobapplite&utm_medium=vtb&utm_campaign=vtb_mobapplite_kn&utm_source=android",
+                          "linkType": "EXTERNAL"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "formatName": "favor",
+              "contentPages": [
+                {
+                  "pageNumber": 1,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Рефинансирование",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "detailText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Уменьшите платеж по кредиту",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "background",
+                      "elementType": "IMAGE",
+                      "image": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/BankingService/bankServCard_refin.png",
+                        "color": "#FDF0CD",
+                        "elementLink": {
+                          "linkURL": "https://anketa.vtb.ru/refinansirovanie-kredita/?utm_source=mobapplite&utm_medium=vtb&utm_campaign=vtb_mobapplite_kn_refin&utm_source=android",
+                          "linkType": "EXTERNAL"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "formatName": "favor",
+              "contentPages": [
+                {
+                  "pageNumber": 1,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Вклады и счета",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "detailText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Пополнение и снятие в любое время",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "background",
+                      "elementType": "IMAGE",
+                      "image": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/BankingService/bankServCard_deposit.png",
+                        "color": "#FFEAE3",
+                        "elementLink": {
+                          "linkURL": "https://www.vtb.ru/personal/vklady-i-scheta/?utm_source=mobapplite&utm_medium=vtb&utm_campaign=vtb_mobapplite_deposit&utm_source=android",
+                          "linkType": "EXTERNAL"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "formatName": "favor",
+              "contentPages": [
+                {
+                  "pageNumber": 1,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Инвестиции",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "detailText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "В ценные бумаги или в валюту",
+                        "fontColor": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "elementId": "background",
+                      "elementType": "IMAGE",
+                      "image": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/BankingService/bankServCard_invest.png",
+                        "color": "#DAFDDE",
+                        "elementLink": {
+                          "linkURL": "https://www.vtb.ru/personal/investicii/?utm_source=mobapplite&utm_medium=vtb&utm_campaign=vtb_mobapplite_investments&utm_source=android",
+                          "linkType": "EXTERNAL"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "positionName": "services",
+          "contents": [
+            {
+              "formatName": "service",
+              "contentPages": [
+                {
+                  "pageNumber": 1,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "ВТБ Мобайл",
+                        "fontColor": "#222222"
+                      }
+                    },
+                    {
+                      "elementId": "detailText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Мобильная связь за бонусы",
+                        "fontColor": "#222222"
+                      }
+                    },
+                    {
+                      "elementId": "background",
+                      "elementType": "IMAGE",
+                      "image": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/Service banner/banerService_mobile.png",
+                        "color": "#DFEDF7",
+                        "elementLink": {
+                          "linkURL": "https://vtbmobile.ru/?utm_source=mobapplite&utm_medium=vtb&utm_campaign=vtb_mobapplite_kn&utm_source=android ",
+                          "linkType": "EXTERNAL"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "locationName": "tutorialLite",
+      "positions":[
+        {
+          "positionName": "tutorial",
+          "contents": [
+            {
+              "formatName": "tutorial",
+              "contentPages":[
+                {
+                  "pageNumber": 1,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Добро пожаловать в ВТБ Онлайн",
+                        "fontColor": "#222222"
+                      }
+                    },
+                    {
+                      "elementId": "subText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Здесь вы можете воспользоваться услугами банка ВТБ. Листайте вниз, чтобы узнать обо всех возможностях.",
+                        "fontColor": "#222222"
+                      }
+                    },
+                    {
+                      "elementId": "recomIcon",
+                      "elementType": "ICON",
+                      "icon": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/Tutorial/tutorialWelcome.png"
+                      }
+                    },
+                    {
+                      "elementId": "button",
+                      "elementType": "BUTTON",
+                      "image": {
+                        "color": "#3A83F1"
+                      },
+                      "button": {
+                        "elementTitle": "Дальше",
+                        "fontColor": "#FFFFFF"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pageNumber": 2,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Быстрые переводы по России и миру",
+                        "fontColor": "#222222"
+                      }
+                    },
+                    {
+                      "elementId": "subText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Переводите деньги близким и друзьям в любую точку мира, где бы вы ни находились. Мгновенно.",
+                        "fontColor": "#222222"
+                      }
+                    },
+                    {
+                      "elementId": "recomIcon",
+                      "elementType": "ICON",
+                      "icon": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/Tutorial/tutorialTransfer.png"
+                      }
+                    },
+                    {
+                      "elementId": "button",
+                      "elementType": "BUTTON",
+                      "image": {
+                        "color": "#3A83F1"
+                      },
+                      "button": {
+                        "elementTitle": "Дальше",
+                        "fontColor": "#FFFFFF"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pageNumber": 3,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Удобная оплата сотовой связи",
+                        "fontColor": "#222222"
+                      }
+                    },
+                    {
+                      "elementId": "subText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Пополняйте счет мобильного телефона быстро.",
+                        "fontColor": "#222222"
+                      }
+                    },
+                    {
+                      "elementId": "recomIcon",
+                      "elementType": "ICON",
+                      "icon": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/Tutorial/tutorialMobile.png"
+                      }
+                    },
+                    {
+                      "elementId": "button",
+                      "elementType": "BUTTON",
+                      "image": {
+                        "color": "#3A83F1"
+                      },
+                      "button": {
+                        "elementTitle": "Дальше",
+                        "fontColor": "#FFFFFF"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pageNumber": 4,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Оплата любых счетов",
+                        "fontColor": "#222222"
+                      }
+                    },
+                    {
+                      "elementId": "subText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Легко оплачивайте счета за квартиру и связь.",
+                        "fontColor": "#222222"
+                      }
+                    },
+                    {
+                      "elementId": "recomIcon",
+                      "elementType": "ICON",
+                      "icon": {
+                        "elementURL": "/content/dam/facelift/vtbLite/android/Tutorial/tutorialHome.png"
+                      }
+                    },
+                    {
+                      "elementId": "button",
+                      "elementType": "BUTTON",
+                      "image": {
+                        "color": "#3A83F1"
+                      },
+                      "button": {
+                        "elementTitle": "Дальше",
+                        "fontColor": "#FFFFFF"
+                      }
+                    }
+                  ]
+                },
+
+                {
+                  "pageNumber":5,
+                  "elements": [
+                    {
+                      "elementId": "mainText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "Станьте клиентом ВТБ с дебетовой мультикартой",
+                        "fontColor": "#222222"
+                      }
+                    },
+                    {
+                      "elementId": "subText",
+                      "elementType": "TEXT",
+                      "text": {
+                        "elementValue": "\u2022 Кэшбэк до 1,5% \n \u2022 Бесплатное обслуживание \n \u2022 Высокий доход по накопительному счету \n \u2022 Бесплатное оформление онлайн за пару минут",
+                        "fontColor": "#222222"
+                      }
+                    },
+                    {
+                      "elementId": "button",
+                      "elementType": "BUTTON",
+                      "image": {
+                        "color": "#3A83F1"
+                      },
+                      "button": {
+                        "elementTitle": "Заказать карту",
+                        "fontColor": "#FFFFFF",
+                        "elementLink": {
+                          "linkURL": "https://vtb.ru/lp/debit-cards/",
+                          "linkType": "EXTERNAL"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
